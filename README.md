@@ -9,7 +9,7 @@ This repository contains the source code, benchmark models, and datasets for the
 **PDF** https://arxiv.org/abs/2212.06140
 
 **DOI:** This artifact is also published in Zenodo:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7578445.svg)](https://doi.org/10.5281/zenodo.7578445)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7579939.svg)](https://doi.org/10.5281/zenodo.7579939)
 
 ![The problem tackled by Fairify](/problem.jpg)
 
