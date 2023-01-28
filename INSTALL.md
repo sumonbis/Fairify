@@ -39,7 +39,7 @@ Navigate to the src directory `cd src/` with command line. To run verification o
 ./fairify.sh <dataset>
 ```
 
-**Example:** To run the verification for all the 8 models in German Credit, run `./fairify.sh GC.py`. Each model is configured to be run for 30 minutes. The above command automatically runs for all the models in the corresponding dataset. The raw results will be generated in the `res` directory inside each dataset directory. All the results from our experiments are included in `csv` files.
+**Example:** To run the verification for all the 8 models in German Credit, run `./fairify.sh GC`. Each model is configured to be run for 30 minutes. The above command automatically runs for all the models in the corresponding dataset. The raw results will be generated in the `res` directory inside each dataset directory. All the results from our experiments are included in `csv` files.
 
 #### Experiment 2
 Not all the models produce SAT or UNSAT in the given time. The rest of the models are again verified using the scaled experiment setup, which is located in `stress` folder. The instruction to run the verification is same as above: navigate to stress directory: `cd stress/` and run the following command. Here, each model takes 1 hour.
@@ -48,7 +48,7 @@ Not all the models produce SAT or UNSAT in the given time. The rest of the model
 ./fairify-stress.sh <dataset>
 ```
 
-**Example:** To run the German Credit model (1 model), run `./fairify-stress.sh GC.py` when you are in `stress` directory. This will take 1 hour to finish. The other dataset models could be run in the same way. 
+**Example:** To run the German Credit model (1 model), run `./fairify-stress.sh GC` when you are in `stress` directory. This will take 1 hour to finish. The other dataset models could be run in the same way. 
 
 #### Experiment 3
 
@@ -58,7 +58,7 @@ The relaxed query verification are also in the corresponding separate directory 
 ./fairify-relaxed.sh <dataset>
 ```
 
-**Example:** Navigate using `cd relaxed/` and then run `./fairify-relaxed.sh GC.py`. Since there are 5 models in this dataset, it will take 5 hours. However, the results are generated in the corresponding `csv` file after each dataset finishes verifying (1 hour). 
+**Example:** Navigate using `cd relaxed/` and then run `./fairify-relaxed.sh GC`. Since there are 5 models in this dataset, it will take 5 hours. However, the results are generated in the corresponding `csv` file after each dataset finishes verifying (1 hour). 
 
 #### Experiment 4
 
@@ -68,4 +68,4 @@ Finally, the verification source code and results for the first and second targe
 ./fairify-targeted.sh <dataset>
 ```
 
-**Example:** Navigate using `cd targeted/`, and then run `./fairify-targeted.s GC.py`. This will take 1 hour for each model, in total 5 hours. 
+**Example:** Navigate using `cd targeted/`, and then run `./fairify-targeted.sh GC`. This will take 1 hour for each model, in total 5 hours. 
