@@ -39,6 +39,13 @@ To run Fairify, we need to install Python 3 environment. The current version has
 
 Follow these steps to create a virtual environment and clone the Fairify repository.
 
+2. Clone this repository and move to the directory:
+
+```
+git clone https://github.com/sumonbis/Fairify
+cd Fairify/
+``` 
+
 1. Run this on command line to create a virtual environment:
 
 ```
@@ -46,11 +53,7 @@ python3 -m venv fenv
 source fenv/bin/activate
 ```
 
-2. Clone this repository:
-
-```
-git clone https://github.com/sumonbis/Fairify
-``` 
+Run the following command to update pip on Python: `python3 -m pip install --upgrade pip`. Alternatively, you can follow the [Python documentation](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) to install virtual environment on your machine. 
 
 3. Navigate to the cloned repository: `cd Fairify/` and install required packages:
 
